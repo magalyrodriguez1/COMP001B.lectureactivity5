@@ -1,4 +1,40 @@
-@import url(https://fonts.google.com/noto/specimen/Noto+Sans+Linear+B);
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Quicksand:wght@500&display=swap');
+
+
+p{
+    /*always add font family or browser will guess*/
+    font-family: 'quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 145%;
+    margin-bottom: .5em; 
+}
+#premise{
+    margin: 25px;
+    padding:30px;
+    border: 2px solid lightblue;
+}
+
+#cast{
+    margin: 25px;
+    padding:30px;
+    border: 2px solid lightblue;
+}
+
+#filming{
+    margin: 25px;
+    padding:30px;
+    border: 2px solid lightblue;
+}
+
+h1{
+    font-family: 'oswald', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 body{
-    font-family: 'noto sans linear B', sans;
+    padding: 25px;
+    border: 2px solid gray;
 }
